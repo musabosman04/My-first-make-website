@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+*{margin:0;padding:0;}
+.fix{overflow:hidden;}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+p{line-height: 150%;margin-bottom: 2em;}
+h2{font-family: 'Roboto', sans-serif;}
+.manu{
+	width:960px;
+	min-height:50px;
+	background:#000;
+	margin:0 auto;
+}
+.manu ul{}
+.manu ul li{
+	list-style-type:none;
+	float:left;
+	position:relative;
+	
+}
+.manu ul li a{
+	text-decoration:none;
+	color:#c6c5c5;
+	display:block;
+	padding: 11px 15px;
+	font-family:'Oswald', sans-serif;
+	font-size:17px;
+	
+}
+.manu ul li a:hover{
+	color:#fff;
+	border-bottom:2px solid green;
+}
+.manu ul li ul{
+	position:absolute;
+	left:-99999px;
+}
+.manu ul li ul li{
+	float:none;
+	background:#000;
+	position:relative;
+	width:100px;
+}
+.manu ul li:hover ul{
+	left:0;
+	
+}
+.manu ul li ul li ul{
+	position:absolute;
+	top:-99999px;
+}
+.manu ul li ul li:hover ul{
+	top:0;
+	left:100px;
+}
+.under_heade{
+	background:url(images/ahsan-manzil-full-view.jpg) no-repeat;
+	background-size:1123px 285px;
+	height:285px;
+	width:960px;
+	margin:0 auto;
+	
+}
+.manu2{
+	width:960px;
+	min-height:45px;
+	padding-top: 240px;
+}
+.manu2 ul{}
+.manu2 ul li{
+	list-style-type:none;
+	float:left;
+	height:45px;
+}
+.manu2 ul li a{
+	text-decoration:none;
+	color:#c6c5c5;
+	padding:11px 15px;
+	display:block;
+	font-family:'Oswald', sans-serif;
+	font-size:17px;
+}
+.manu2 ul li a:hover{
+	color:#fff;
+	border-top:2px solid green;
+}
+.undrmnu_srch{
+	margin-left: 743px;
+    margin-top: 14px;
+}
+.content_wrapper{
+	width:960px; 
+	margin:0 auto; 
+	display:block;
+	font-family:Sans-Serif, Arial !important;
+	
+}
+.left_content{
+	float:left;
+	width:200px;
+	background:#bbb;
+	padding-top:10px;
+}
+.left_content ul{
+	padding:5px;
+}
+.left_content h2{
+	background: green;
+    padding: 4px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.middle_content{
+	float: left;
+    width: 540px;
+    background: #eee;
+    padding: 10px;
+}
+.middle_content blockquote{
+	background: url(images/quote.png) no-repeat #ddd;
+    background-size: 45px 50px;
+    margin: 20px;
+    padding: 20px 10px 10px 50px;
+    border-left: 5px solid red;
+    font-weight: bold;
+    background-position: 5px 6px;
+}
+.middle_content h2{
+    background:url(images/3-bar-menu.png) no-repeat #bbb;
+	background-size: 25px 25px;
+    padding: 2px 2px 2px 42px;
+    background-position: 6px 4px;
+	margin:10px -10px 10px -10px;
+}
+.right_content{
+	float:left;
+	width:200px;
+	background:#bbb;
+	padding-top:10px;
+}
+.right_content h2{
+	background: green;
+    padding: 4px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.form p{
+	margin-bottom:0px;
+	margin-left:5px;
+}
+.form input{
+	width: 160px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1.2px solid green;
+    margin: 5px;
+}
+.form input[type="submit"]{
+	width: 71px;
+    height: 21px;
+    margin-top: 5px;
+    margin: 5px;
+}
+.form input[type="submit"]:hover{
+	background:green;
+	border: 1.2px solid #eee;
+	color:#fff;
+	transition:0.2s all ease;
+	cursor:pointer;
+}
+.footer_part{
+	width:960px; 
+	margin:0 auto; 
+	display:block;
+	font-family:Sans-Serif, Arial !important;
+	border-top:5px solid red;
+	background:#312F30;
+}
+.footer_part h2{
+	color:#fff;
+	padding-left:10px;
+	border-bottom:2px solid #fff;
+}
+.footer_part ul{
+	margin: 10px;
+	list-style-type:none;
+}
+.footer_part a:hover{
+	color:red;
+}
+.footer_part a{
+	color:#fff;
+	
+}
+.footer_left{
+	float:left;
+	width:300px;
+	margin-right:15px;
+}
+.footer_middle{
+	float:left;
+	width:300px;
+	margin-right:15px;
+	
+}
+.footer_right{
+	float:left;
+	width:330px;
+}
+.footer_right ul li{
+	float:left;
+}
+.footer_right ul li img{
+	width:40px;
+	height:40px;
+	padding: 10px 10px;
+}
+.footer_right ul li img:hover{
+	background:#bbb;
+	border-radius:50px;
+}
+.copysec{
+	width:950px;
+	margin:0 auto;
+	background: orange;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
